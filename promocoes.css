@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+article{
+background-color: #0f4824;
+border-radius: 8px;
+margin: 10px;
+padding: 20px;
+width: 80%;
+box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #0f4824;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilizando o link de promoções */
+nav a[href="promotions.html"] {
+    color: #ffffff; /* Cor laranja - você pode ajustar a cor conforme necessário */
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #0f4824;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
